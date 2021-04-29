@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-img {
+  background-image: url("bus.jpg");
+
+  min-height: 800px;
+	
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  position: relative;  
+
+}
+
+.bg-img2 {
+  background-image: url("privacy.jpg");
+
+  min-height: 300px;
+	
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  position: relative;  
+
+}
+
+
+#navbar {
+padding: 30px 10px;
+transition: 1s;
+background-color: rgba(19, 113, 130, 0.30);
+font-size:1.7rem;
+}
+
+#pa {
+font-family: "Garamond";
+}
+
+p.p {
+  line-height: 1.5;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+  background-color: gray;
+  margin-top: 20px;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-top: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.gi-3x{font-size: 3em;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
